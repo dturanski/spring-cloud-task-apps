@@ -1,0 +1,18 @@
+logging:
+   level:
+       org.springframework.cloud.task: DEBUG
+
+spring:
+   application:
+      name: file-task
+
+   datasource:
+      url: jdbc:mariadb://localhost/spring_cloud_dataflow
+      username: root
+      password: password
+      driverclassName: org.mariadb.jdbc.Driver
+
+
+
+
+
